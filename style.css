@@ -10,7 +10,7 @@
     /* border: 2px solid red; */
     
 }
-.col-12,.col-9,.col-3, .col-5{
+.col-12,.col-9,.col-md-3, .col-5{
     border: 2px solid green; 
     
 }
