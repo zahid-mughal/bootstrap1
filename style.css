@@ -7,10 +7,11 @@
     /* background-color: lightsalmon; */
 }
 .row{
-    /* border: 2px solid red; */
+    border: 2px solid red;
+    height: 30rem;
     
 }
-.col-12,.col-9,.col-md-3, .col-5{
+.col-12,.col-9,.col-md-3, .col-5,.col-md-4,.col-md-5,.col-md-6{
     border: 2px solid green; 
     
 }
