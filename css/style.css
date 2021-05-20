@@ -1,0 +1,37 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+a:hover{
+    text-decoration: none;
+}
+#header{
+    color: white;
+    background-color: #e74c3c;
+}
+#logo{
+    font-size: 2rem;
+}
+#header #menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+}
+#header #menu li{
+    display: inline-block;
+}
+#header #menu li a{
+    /* background-color: antiquewhite; */
+    color:white;
+    padding: 15px;
+    display: block;
+}
+#header #menu li a:hover{
+    background-color: #c0392b;
+}
+
+/*  banner  */
+#banner{
+    background: url('../images/banner\ \(3\).jpg') ;
+}
