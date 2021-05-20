@@ -165,3 +165,8 @@ margin-bottom: 15px;
     font-size: 26px;
 }
 }
+@media screen and (max-width:768px){
+    .testimonil{
+        text-align: center;
+    }
+}
