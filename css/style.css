@@ -33,5 +33,6 @@ a:hover{
 
 /*  banner  */
 #banner{
-    background: url('../images/banner\ \(3\).jpg') ;
+    background: url('../images/banner\ \(3\).jpg') no-repeat 0 0;
+    background-size: cover;
 }
