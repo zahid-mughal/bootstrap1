@@ -44,6 +44,7 @@ a:hover{
 #banner{
     background: url('../images/banner\ \(3\).jpg') no-repeat 0 0;
     background-size: cover;
+    background-position: center;
 }
 .banner-title h1{
     background: rgba(255, 255, 255,0.8);
@@ -57,6 +58,28 @@ a:hover{
     background-color: #e74c3c;
     padding: 10px;
 }
+
+/* section  */
+.section h2.section-head:after{
+    background: #e74c3c;
+    content: "";
+    width: 100px;
+    height: 3px;
+    display: block;
+    margin: 20px auto;
+
+}
 .service-box{
     text-align: center;
+}
+
+/* Testimonial  */
+.testimonil{
+    background: url('../images/testi_back.jpg') no-repeat 0 0;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: white;
+    position: relative;
+    /* margin-top: 8rem; */
 }
