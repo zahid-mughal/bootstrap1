@@ -5,6 +5,15 @@
 a:hover{
     text-decoration: none;
 }
+.section{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.section h2.section-head{
+    margin-bottom: 40px;
+    color: #000;
+    text-align: center;
+}
 #header{
     color: white;
     background-color: #e74c3c;
@@ -42,4 +51,12 @@ a:hover{
     padding: 15px;
     display: inline-block;
 
+}
+.banner-title .lead{
+    color: white;
+    background-color: #e74c3c;
+    padding: 10px;
+}
+.service-box{
+    text-align: center;
 }
