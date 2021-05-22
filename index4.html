@@ -11,17 +11,10 @@
 </head>
 <body>
  <div class="container">
-     <div class="row ">
+     <div class="row py-5">
          <div class="col-md-4">
-             <div class="card">
-                 <img src="./images/1.jpg" alt="" class="card-img-top">
-               <div class="card-img-overlay">
-                   <h4 class="card-title">this card</h4>
-                   <p class="card-text">
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ullam ipsam veritatis!
-                   </p>
-               </div>
-                </div>
+             <button class="btn btn-primary" id="btn-click" data-placement="top" data-toggle="tooltip" title="this is tool tip">Button</button>
+             
          </div>
      </div>
  </div>
@@ -45,13 +38,18 @@
 
 
 
-
+<script>
+    $(function(){
+        $('btn-click').tooltip();
+    });
+</script>
 
 
 
 <script src="./Js/jquerry.js"></script>
 <script src="./Js/popper.js"></script>
 <script src="./bootstrap/js/bootstrap.min.js"></script>
+<script src="./bootstrap-4.3.1/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
