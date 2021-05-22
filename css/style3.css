@@ -1,0 +1,13 @@
+.container-xxl,.container,.row,.col{
+    border: 2px solid black;
+}
+.nav{
+    background-color:darkolivegreen;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+    background-color: rgb(10, 20, 20);
+}
