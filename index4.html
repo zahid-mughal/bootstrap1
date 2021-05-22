@@ -7,14 +7,22 @@
     <link rel="stylesheet" href="./bootstrap-4.3.1/css/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="./css/style3.css">
+    <!-- <script>
+        document.
+        $(function(){
+            $('btn-click').popover();
+        });
+    </script> -->
 
 </head>
 <body>
  <div class="container">
      <div class="row py-5">
          <div class="col-md-4">
-             <button class="btn btn-primary" id="btn-click" data-placement="top" data-toggle="tooltip" title="this is tool tip">Button</button>
-             
+             <!-- <button class="btn btn-primary" id="btn-click" data-placement="top"  title = "this is tool " data-content="hgjhgjhgjhgjhgh">Button</button> -->
+             <div class="alert alert-primary">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse molestiae voluptatibus neque ratione. Similique, quisquam eos voluptas odit eaque voluptatibus, culpa rem adipisci nihil molestiae vitae aut. Dicta, illo fuga.
+             </div>
          </div>
      </div>
  </div>
@@ -38,18 +46,21 @@
 
 
 
-<script>
-    $(function(){
-        $('btn-click').tooltip();
-    });
+
+
 </script>
-
-
-
-<script src="./Js/jquerry.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+    $( document ).ready(function() {
+        $('btn-click').popover();
+});
+</script>
+<!-- <script src="./Js/jquerry.js"></script>
 <script src="./Js/popper.js"></script>
-<script src="./bootstrap/js/bootstrap.min.js"></script>
-<script src="./bootstrap-4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="./bootstrap/js/bootstrap.min.js"></script> -->
+<!-- <script src="./bootstrap-4.3.1/js/bootstrap.bundle.min.js"></script> -->
 
 </body>
 </html>
